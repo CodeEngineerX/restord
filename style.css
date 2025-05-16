@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #800000;
+
+}
+header{
+ 
+
+     height:100px;
+  background-color: #fdbb2d;
+ color: #800000;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.navgtion{
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
+
+   
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+}
+.links{
+    font-family:  "Poppins", sans-serif;
+    
+    
+}
+.links a{
+   
+  margin-left: 30px;
+  color: #800000;
+  transform: 0.3s;
+
+}
+.links a:hover{
+   color: red;
+   font-weight: 700;
+}
+
+.logo{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
+.menu{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdbb2d;
+   
+}
+ .contenr{
+   
+      width:80%;
+    max-width: 1500px;
+     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+ }
+ .menu .contenr .top{
+ position: fixed;
+   background-color: red;
+   width: 40px;
+   height: 40px;
+   border-radius: 4px;
+   transition: 0.3s;
+   margin-left: 1500px;
+   display: none;
+  
+   
+  
+  
+ }
+ .contenr .top:hover{
+   scale: 1.1;
+ }
+ .contenr .top.acriv {
+   display: block;
+   
+  
+
+
+ }
+
+
+ .contenr .top i{
+   color: #800000;
+   font-size: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 8px;
+  
+  
+
+ }
+
+
+
+
+
+
+
+ .contenr .texst{
+    max-width: 50%;
+    
+    
+ }
+ .box{
+    width: 400px;
+    height: 120px;
+    background-color: #fdbb2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #800000;
+ }
+ .box h3{
+    font-size:30px;
+    font-family:"Bebas Neue", sans-serif ;
+    font-weight: 400;
+    
+   
+ }
+ .box span{
+  
+   display: flex;
+   margin-left: 30%;
+ }
+
+ .texst-2{
+    font-size: 40px;
+    font-family:"Anton", sans-slerif ;
+    letter-spacing: 2px;
+    
+ }
+ .imgs{
+    max-width: 50%;
+ }
+ .imgs img{
+    width: 100%;
+    height: 100%;
+ }
+
+
+ .img2{
+   
+   height: 70vh;
+   display: flex;
+   align-items: center;
+   
+
+ }
+
+
+ .sction{
+    width:80%;
+    max-width: 1500px;
+     margin: auto;
+      display: flex;
+     align-items: center;
+     justify-content: center;
+   
+    
+ }
+ .sction .p1{
+ 
+   min-width: 50%;
+    
+   
+ }
+ .sction .p1 h1{
+   color: black;
+  
+  
+   
+ }
+ 
+ .sction .p1 .a{
+   min-width: 95%;
+    min-height:95%;
+   background-color: beige;
+   
+ }
+ .sction .p1 h1{
+   position: relative;
+ }
+ .sction .p2{
+  
+   max-height: 50%;
+   
+ }
+
+
+ 
+ .sction  .p2 .b{
+   
+  min-width:100%;
+  height:100%;
+ 
+  
+ 
+ }
+ .sction  .p2 .c{
+   min-width:100%;
+  height:100% ;
+  
+
+ }
+ .menus{
+   
+   height: 100vh;
+  
+  
+ }
+
+.menus .main{
+   width:80%;
+    max-width: 1500px;
+     margin: auto;
+   
+   
+ }
+ .main{
+   height: 100%;
+   display: flex;
+  
+   
+  
+  
+ }
+ .main .top{
+   height: 70%;
+  
+   
+   
+  
+ }
+ .main .top .btun{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5px;
+ }
+
+ .main .top .btn{
+  padding: 17px 50px;
+ background-color: #fdbb2d;
+  font-weight: 400;
+  color: #800000;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+   
+ }
+
+   
+   
+ 
+ .main .top .tex h1{
+   display: flex;
+   justify-content: center;
+   font-size: 70px;
+   font-family:"Anton", sans-slerif ;
+   letter-spacing: 2px;
+   margin-bottom: 5px;
+ }
+
+ .main .top .tex p{
+   font-size: 18px;
+   font-family:  "Poppins", sans-serif;
+   text-align:center ;
+   margin-bottom: 30px;
+ }
+
+ .menus .main .cards{
+   width: 100%;
+   height: 95%;
+   display: flex;
+   justify-content: space-around;
+   
+ }
+
+ .cards .card{
+  
+   width: 410px;
+   max-width: 30%;
+   border-radius: 10px;
+   transition: 1s;
+
+ }
+ .cards .card:hover{
+ 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+  .card .mgs{
+ 
+ display: flex;
+ justify-content:center ;
+ margin-top: 10px;
+ margin-bottom: 20px;
+
+  }
+
+  .card .mgs .p1{
+  
+   width: 60%;
+   margin-bottom: 10px;
+   height: 50%;
+  }
+  .card .texst{
+   text-align: center;
+   font-family :"Poppins", sans-serif;
+   font-size: 20px;
+   margin-bottom: 40px;
+   height: 60%;
+   
+
+  }
+  .card .texst p{
+  margin-top: 30px;
+  }
+  
+
+  .card .btn2{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+
+  }
+  .card  a{
+   
+   padding: 17px 20px;
+  background-color: red;
+   margin-top: 30px;
+   color: white;
+
+  }
+  .card  a:hover{
+   background-color:#800000;
+  }
+
+  
+   
+ 
+ .discove{
+   height: 80vh;
+
+ } 
+ .discove .man{
+   width: 100%;
+max-width:1500px ;
+ margin: auto;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+.discove .man .not{
+
+width: 100%;
+height: 70%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+
+}
+.man .not .texs{
+   width: 50%;
+}
+.not .texs .pi{
+   width: 50%;
+}
+.not .texs h2{
+   font-size: 40px;
+   font-family: "Bebas Neue", sans-serif;
+}
+.not .texs h1{
+   font-size: 90px;
+    font-family:"Anton", sans-slerif ;
+    letter-spacing: 4px;
+}
+.not .texs p{
+   font-size: 20px;
+   font-family :"Poppins", sans-serif;
+}
+
+.form{
+   height: 80vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+
+
+
+.book{
+   height: 70%;
+   width: 40%;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+
+   
+}
+.form  .book .texs{
+text-align: center;
+
+}
+
+.book .texs h2{
+   font-size: 40px ;
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 400;
+   
+}
+.book .texs h1{
+   font-size: 50px;
+   font-family:"Anton", sans-slerif ;
+   letter-spacing: 2px;
+}
+
+
+.forms{
+ 
+   height: 80%;
+  
+  
+  margin-left: 60px;
+  
+}
+form{
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+  
+
+}
+input{
+   padding: 20px 50px;
+  
+   margin-bottom: 10px;
+   
+   outline: none;
+  
+   
+}
+
+.inputs .btn3 {
+   
+   padding: 20px 110px;
+   background-color: red;
+   color: white;
+   font-family: "Bebas Neue", sans-serif;
+   
+}  
+.inputs .btn3:hover{
+   background-color: #800000;
+
+
+}
+.img4{
+   position: absolute;
+   width: 100%;
+   height: 70%;
+}
+.end{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+
+}
+ .end .com{
+   position: relative;
+   width: 1500px;
+   height: 400px;
+
+}
+.img5{
+ 
+   font-size: 30px;
+   margin-top: 20px;
+   margin-bottom:20px;
+   
+
+}
+.com .texst1{
+   width: 50%;
+   height: 50%;
+  
+}
+.end .com{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    font-family :"Poppins", sans-serif;
+   
+}
+.end .com .texst1 p{
+   color: white;
+  
+
+   
+}
+.texst2{
+ 
+   width: 30%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   color: white;
+   
+
+}
+
+
+.texst2 i{
+   color: white;
+   font-size:20px ;
+   transition: 0.3s;
+}
+
+.texst2 .media{
+  
+   
+   margin-top: 80px;
+   text-align:center;
+}
+.texst2 .media i{
+   font-size: 30px;
+
+}
+.texst2 .media i:hover{
+   color: #fdbb2d;
+}
+
+
+
+.texst2 h3{
+   color: white;
+   font-weight: 300;
+ 
+  
+}
+.t{
+  
+ 
+   display: flex;
+  
+   position: relative;
+   margin-top: 10px;
+   color: white;
+   font-family :"Poppins", sans-serif; 
+   font-weight: 300;
+}
+
+@media(max-width:1250px){
+   .sction{
+      width: 80%;
+     background-color: #fdbb2d;
+   
+   }
+   .sction .p1 .a{
+     font-size: 30%;
+    
+   }
+   .sction .p1 .b{
+      width:  30%;
+     
+    }
+ 
+}
